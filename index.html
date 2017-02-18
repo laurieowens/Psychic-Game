@@ -1,16 +1,27 @@
 </!DOCTYPE html>
 <html>
-<head>
-	<title>Psychic Game</title>
-</head>
-<body>
-<h1>Psychic Game</h1>
-<p>Guess what letter I am thinking of?</p>
-<p>Wins:</p>
-<p>Losses:</p>
-<p>Guesses:</p>
-<p>Guesses Left:</p>
-<p>Your guesses so far:</p>
-<script src="assets/javascript/game.js"></script>
-</body>
+	<head>
+		<title>Psychic Game</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<body>
+		<h1>Are you PSYCHIC?</h1><br>
+		<p> I am thinking of a...</p>
+		<p>...LETTER! (a-z)</p>
+		<br>
+		<p> Can you guess which one?</p>
+		<p>(I'll give you <span id="guessesLeft"></span> tries!)</p>
+		<br>
+		<p>You've guessed letters:<br><span id="youPickedThis"></span></p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<p>Wins: <span id="countYerWins"></span></p>
+		<br>
+		<p>Losses: <span id="countYerLosses"></span></p>
+		<script src="assets/javascript/game.js"></script>
+	</body>
 </html>
